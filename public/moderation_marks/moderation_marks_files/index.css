@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'SegoeUI';
+    font-display: swap;
+    src: url('/fonts/SegoeUI.eot'),
+    url('/fonts/SegoeUI.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/SegoeUI.woff2') format('woff2'),
+    url('/fonts/SegoeUI.woff') format('woff'),
+    url('/fonts/SegoeUI.ttf') format('truetype'),
+    url('/fonts/SegoeUI.svg#/fonts/SegoeUI') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    font-display: swap;
+    src: url('/fonts/SegoeUI-Semibold.eot'),
+    url('/fonts/SegoeUI-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/SegoeUI-Semibold.woff2') format('woff2'),
+    url('/fonts/SegoeUI-Semibold.woff') format('woff'),
+    url('/fonts/SegoeUI-Semibold.ttf') format('truetype'),
+    url('/fonts/SegoeUI-Semibold.svg#/fonts/SegoeUI-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    font-display: swap;
+    src: url('/fonts/SegoeUI-Italic.eot');
+    src: url('/fonts/SegoeUI-Italic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/SegoeUI-Italic.woff2') format('woff2'),
+    url('/fonts/SegoeUI-Italic.woff') format('woff'),
+    url('/fonts/SegoeUI-Italic.ttf') format('truetype'),
+    url('/fonts/SegoeUI-Italic.svg#/fonts/SegoeUI-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    font-display: swap;
+    src: url('/fonts/SegoeUI-LightItalic.eot'),
+    url('/fonts/SegoeUI-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/SegoeUI-LightItalic.woff2') format('woff2'),
+    url('/fonts/SegoeUI-LightItalic.woff') format('woff'),
+    url('/fonts/SegoeUI-LightItalic.ttf') format('truetype'),
+    url('/fonts/SegoeUI-LightItalic.svg#/fonts/SegoeUI-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    font-display: swap;
+    src: url('/fonts/SegoeUI-Light.eot'),
+    url('/fonts/SegoeUI-Light.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/SegoeUI-Light.woff2') format('woff2'),
+    url('/fonts/SegoeUI-Light.woff') format('woff'),
+    url('/fonts/SegoeUI-Light.ttf') format('truetype'),
+    url('/fonts/SegoeUI-Light.svg#/fonts/SegoeUI-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    font-display: swap;
+    src: url('/fonts/SegoeUI-Semilight.eot'),
+    url('/fonts/SegoeUI-Semilight.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/SegoeUI-Semilight.woff2') format('woff2'),
+    url('/fonts/SegoeUI-Semilight.woff') format('woff'),
+    url('/fonts/SegoeUI-Semilight.ttf') format('truetype'),
+    url('/fonts/SegoeUI-Semilight.svg#/fonts/SegoeUI-Semilight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    font-display: swap;
+    src: url('/fonts/SegoeUIBlack.eot'),
+    url('/fonts/SegoeUIBlack.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/SegoeUIBlack.woff2') format('woff2'),
+    url('/fonts/SegoeUIBlack.woff') format('woff'),
+    url('/fonts/SegoeUIBlack.ttf') format('truetype'),
+    url('/fonts/SegoeUIBlack.svg#/fonts/SegoeUIBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    font-display: swap;
+    src: url('/fonts/SegoeUI-SemiboldItalic.eot'),
+    url('/fonts/SegoeUI-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/SegoeUI-SemiboldItalic.woff2') format('woff2'),
+    url('/fonts/SegoeUI-SemiboldItalic.woff') format('woff'),
+    url('/fonts/SegoeUI-SemiboldItalic.ttf') format('truetype'),
+    url('/fonts/SegoeUI-SemiboldItalic.svg#/fonts/SegoeUI-SemiboldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    font-display: swap;
+    src: url('/fonts/SegoeUIBlack-Italic.eot'),
+    url('/fonts/SegoeUIBlack-Italic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/SegoeUIBlack-Italic.woff2') format('woff2'),
+    url('/fonts/SegoeUIBlack-Italic.woff') format('woff'),
+    url('/fonts/SegoeUIBlack-Italic.ttf') format('truetype'),
+    url('/fonts/SegoeUIBlack-Italic.svg#/fonts/SegoeUIBlack-Italic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    font-display: swap;
+    src: url('/fonts/SegoeUI-Bold.eot'),
+    url('/fonts/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/SegoeUI-Bold.woff2') format('woff2'),
+    url('/fonts/SegoeUI-Bold.woff') format('woff'),
+    url('/fonts/SegoeUI-Bold.ttf') format('truetype'),
+    url('/fonts/SegoeUI-Bold.svg#/fonts/SegoeUI-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    font-display: swap;
+    src: url('/fonts/SegoeUI-BoldItalic.eot'),
+    url('/fonts/SegoeUI-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/SegoeUI-BoldItalic.woff2') format('woff2'),
+    url('/fonts/SegoeUI-BoldItalic.woff') format('woff'),
+    url('/fonts/SegoeUI-BoldItalic.ttf') format('truetype'),
+    url('/fonts/SegoeUI-BoldItalic.svg#/fonts/SegoeUI-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    font-display: swap;
+    src: url('/fonts/SegoeUI-SemilightItalic.eot'),
+    url('/fonts/SegoeUI-SemilightItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/SegoeUI-SemilightItalic.woff2') format('woff2'),
+    url('/fonts/SegoeUI-SemilightItalic.woff') format('woff'),
+    url('/fonts/SegoeUI-SemilightItalic.ttf') format('truetype'),
+    url('/fonts/SegoeUI-SemilightItalic.svg#/fonts/SegoeUI-SemilightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+body {
+    font-family: 'SegoeUI';
+}
+
+body.waiting * {
+    cursor: progress;
+}
+
+::selection {
+    background: #f6f42e;
+}
+
+/*div[required].Mui-disabled.Mui-error[valid='false'] {
+    border-left: 1px solid #ff4b4b !important;
+}*/
+
+div[required].Mui-disabled.Mui-error[valid='true'] {
+    border-left: 1px solid #ff4b4b !important;
+}
+
+/*div[required][alwaysbacklit='true'][valid='true'] {
+    border-left: 2px solid #60e84a !important;
+}*/
+
+div[required][alwaysbacklit='true'][valid='false'] {
+    border-left: 2px solid #ff4b4b !important;
+}
+
+.tabWithLogoRus::before {
+    content: ' ';
+    display: block;
+    width: 33px;
+    height: 22px;
+    background: url(GS1-rus.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: calc(50% - 120px);
+}
+
+.tabWithLogoKaz::before {
+    content: ' ';
+    display: block;
+    width: 33px;
+    height: 22px;
+    background: url(GS1-kaz.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: calc(50% - 120px);
+}
+
+.disabled-item {
+    border-left: 1px solid #d9d9d9 !important;
+}
+
+.custom-select-width {
+    display: grid !important;
+    padding-right: 85px;
+}
+
+.custom-select-width.icon2x {
+    display: grid !important;
+    padding-right: 110px;
+}
+
+.custom-select-width > div {
+    box-sizing: border-box !important;
+    padding-right: 0 !important;
+    text-overflow: clip;
+}
+
+.disabled-textfield input {
+    border-left: none !important;
+    cursor: default !important;
+    background-color: #f9f9f9;
+}
+
+.disabled-textfield + div {
+    cursor: default;
+}
+
+.hovered-item svg path {
+    transition: fill 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.hovered-item:hover svg path {
+    fill: #63666a;
+}
+
+/*
+// Скрыть первый элемент уведомления, если их больше двух.
+#__react-alert__ > div:nth-last-child(n+2):first-child {
+    display: none;
+}
+*/
