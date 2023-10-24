@@ -45,7 +45,7 @@ app.get(['/', 'home'], async function(req, res){
                 if(el.requiredInstanceTypes) {
                     if(el.requiredInstanceTypes.indexOf('CIS') >= 0) {
 
-                        if(el.instances !== undefined) {
+                        if(el.instances === undefined) {
 
                             products.push(el.offerName)
                             productsArticles.push(el.offerId)
@@ -61,7 +61,7 @@ app.get(['/', 'home'], async function(req, res){
 
     }
 
-    await getOrders(fbsId)
+    await getOrders(dbsId)
 
     let html = ``
 
